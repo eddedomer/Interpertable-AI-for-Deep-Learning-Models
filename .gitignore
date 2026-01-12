@@ -1,1 +1,30 @@
-.e
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+*.conda
+.env
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Artifacts / outputs
+artifacts/**/*
+outputs/**/*
+!artifacts/**/.gitkeep
+!outputs/**/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
