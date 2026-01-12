@@ -1,17 +1,18 @@
 numpy
 pandas
 scikit-learn
+scipy
 matplotlib
+tqdm
+joblib
 
-tensorflow
-scikeras
-
-torch
-torchvision
-captum
+jupyterlab
+ipykernel
 
 lime
 shap
 alibi
 dice-ml
-jupyter
+
+pillow
+scikit-image
