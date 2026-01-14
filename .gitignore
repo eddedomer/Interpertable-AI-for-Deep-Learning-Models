@@ -8,6 +8,8 @@ __pycache__/
 # Environments
 .venv/
 venv/
+venv311/
+.venv311
 env/
 *.conda
 .env

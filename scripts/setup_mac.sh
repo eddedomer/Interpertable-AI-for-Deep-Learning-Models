@@ -68,11 +68,11 @@ echo "Installing requirements from $REQ_FILE ..."
 pip install -r "$REQ_FILE"
 
 # ---------------- TensorFlow Metal (only on Apple Silicon) ----------------
-if [[ "$(uname -s)" == "Darwin" && "$(uname -m)" == "arm64" ]]; then
-  echo "Installing tensorflow-metal (Apple Silicon acceleration)..."
-  # If it fails, keep going (CPU TF still works)
-  pip install tensorflow-metal || echo "WARNING: tensorflow-metal install failed; continuing with CPU TensorFlow."
-fi
+#if [[ "$(uname -s)" == "Darwin" && "$(uname -m)" == "arm64" ]]; then
+#  echo "Installing tensorflow-metal (Apple Silicon acceleration)..."
+#  # If it fails, keep going (CPU TF still works)
+#  pip install tensorflow-metal || echo "WARNING: tensorflow-metal install failed; continuing with CPU TensorFlow."
+#fi
 
 # ---------------- Jupyter kernel ----------------
 echo "Registering Jupyter kernel..."
