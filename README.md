@@ -29,3 +29,8 @@ scripts\setup_windows.bat cpu
 REM or 
 scripts\setup_windows.bat cu126
 ```
+
+#### Train All Models
+```bash
+python -m src.runners.train_all
+```
