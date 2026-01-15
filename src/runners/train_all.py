@@ -53,7 +53,7 @@ def train_all(train_all_settings: TrainAllSettings = TrainAllSettings()) -> Dict
 
     adult_output_directory = train_all_output_directory / "adult_mlp"
     california_output_directory = train_all_output_directory / "california_mlp"
-    fashion_output_directory = train_all_output_directory / "fashion_mlp"
+    fashion_output_directory = train_all_output_directory / "fashion_cnn"
 
     start_time_seconds = time.perf_counter()
     adult_metrics = train_adult_mlp(
